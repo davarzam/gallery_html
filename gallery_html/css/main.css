@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main{
+	width: 70%;
+	padding:50px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+body{background-color:#efefef }
+@font-face{
+	font-family: asya; 
+    src: url(asya.otf); 
+}
+	h1{font-family: MyWebFonts;
+}
+.photo{
+    width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 20px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1 px rgba(0,0,0,0.2);
+}
+h1 { font-family:asya;
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+.photo:hover{
+	transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
+}
+.photo1{
+	background-image: url(../img/c.png);
+}
+.photo2{
+	background-image: url(../img/cotlin.png);
+}
+.photo3{
+	background-image: url(../img/css.png);
+}
+.photo4{
+	background-image: url(../img/html.jpg);
+}
+.photo5{
+	background-image: url(../img/java.jpg);
+}
+.photo6{
+	background-image: url(../img/pyhton.jpg);
+}
+.photo7{
+	background-image: url(../img/rubi.png);
+}
+.photo8{
+	background-image: url(../img/scala.jpg);
+}
+
